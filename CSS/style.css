@@ -146,7 +146,7 @@ ul li:before {
 .topnav {
     width: 100%;
     position: fixed;
-    background-color: #0e1b38;
+    background-color: var(--secondary);
     z-index: 9;
 }
 
@@ -159,7 +159,7 @@ ul li:before {
     justify-content: center;
     align-items: center;
     padding: 10px 0;
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -173,8 +173,13 @@ ul li:before {
     color: var(--white);
 }
 
-.topnav-content a:hover {
+.topnav-content a:not(.primary-btn):hover {
     text-decoration: underline;
+}
+
+.topnav-content .primary-btn.ghost-btn:hover {
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 .topnav .header-col {
@@ -206,6 +211,11 @@ ul li:before {
 #header-logo {
     width: 100px;
     height: auto;
+    margin-left: 0;
+}
+
+.header-link {
+    margin-left: 0;
 }
 
 /* SECTIONS, ROWS & COLUMNS */
@@ -507,6 +517,7 @@ ul li:before {
 
 #footer .col:nth-child(1) {
     width: 20%;
+    margin-left: 0;
 }
 
 #footer .col:nth-child(2) {
