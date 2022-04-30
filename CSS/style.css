@@ -572,6 +572,12 @@ ul li:before {
 #footer .col.socials a {
     margin: 0 10px;
     font-size: 18px;
+    transition: var(--transition);
+}
+
+#footer .col.socials a :hover {
+    transition: var(--transition);
+    transform: scale(1.10);
 }
 
 
