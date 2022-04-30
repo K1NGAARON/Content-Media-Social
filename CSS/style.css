@@ -6,6 +6,7 @@
     --black: #000;
     --box-shadow: 20px 0 60px rgb(14 27 56 / 15%);
     --box-shadow-dark: 0px 6px 15px 5px rgb(14 27 56 / 30%);
+    --box-shadow-nav: 0px 6px 15px 5px rgb(14 27 56 / 15%);
     --transition: all .25s ease-in-out;
 }
 
@@ -14,6 +15,7 @@ span {
     color: red;
     font-weight: bold;
 }
+/* END */
 
 html {
     scroll-behavior: smooth;
@@ -143,6 +145,7 @@ ul li:before {
     position: fixed;
     background-color: var(--secondary);
     z-index: 9;
+    box-shadow: var(--box-shadow-nav);
 }
 
 .topnav .header-col a:hover {
