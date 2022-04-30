@@ -9,6 +9,11 @@
     --transition: all .25s ease-in-out;
 }
 
+span {
+    color: red;
+    font-weight: bold;
+}
+
 html {
     scroll-behavior: smooth;
 }
