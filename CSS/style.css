@@ -12,13 +12,6 @@
     --transition: all .25s ease-in-out;
 }
 
-/* USED FOR BUILDING */
-span {
-    color: red;
-    font-weight: bold;
-}
-/* END */
-
 html {
     scroll-behavior: smooth;
 }
@@ -484,6 +477,81 @@ ul li:before {
     color: var(--secondary);
     font-family: "FontAwesome";
 }
+
+#services {
+    position: relative;
+}
+
+.services-background {
+    background-image: url("/IMG/black-and-white-30.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+}
+
+.service-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 99;
+}
+
+.service-wrapper .service-post {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 9px;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow-nav);
+    transition: var(--transition);
+}
+
+.service-wrapper .service-post.focus {
+    background-color: var(--primary);
+    color: var(--white);
+    box-shadow: var(--box-shadow-dark);
+}
+
+.service-wrapper .service-post:hover {
+    transition: var(--transition);
+    transform: scale(1.10);
+    border: 2px solid var(--primary);
+}
+
+.service-wrapper .service-post .icon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color: var(--primary);
+}
+
+.service-wrapper .service-post a {
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.service-wrapper .service-post.focus a {
+    color: var(--white);
+}
+
+.service-wrapper .service-post a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+/* TO BE CONTINUED */
+
+
+
 
 /* CONTACT FORM */
 .contact-form-wrapper {
