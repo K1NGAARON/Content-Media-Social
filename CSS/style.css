@@ -35,7 +35,7 @@ html {
 h1 {
     font-weight: 700;
     font-size: 52px;
-    color: var(--black);
+    color: var(--primary);
     line-height: 1.2;
     margin-bottom: 16px;
 }
@@ -145,7 +145,7 @@ ul li:before {
 
 .topnav-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 0;
     max-width: 1200px;
@@ -178,18 +178,15 @@ ul li:before {
 }
 
 .topnav .header-col:nth-child(1) {
-    width: 15%;
     justify-content: flex-start;
     margin-left: 0;
 }
 
 .topnav .header-col:nth-child(2) {
-    width: 50%;
     text-align: left;
 }
 
 .topnav .header-col:nth-child(3) {
-    width: 30%;
     justify-content: flex-end;
 }
 
@@ -198,7 +195,7 @@ ul li:before {
 }
 
 #header-logo {
-    width: 100px;
+    width: 150px;
     height: auto;
     margin-left: 0;
 }
