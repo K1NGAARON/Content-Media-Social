@@ -212,6 +212,16 @@ ul li:before {
     color: var(--white);
 }
 
+#about.section .row .col img {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#about.section .row .col a:hover {
+    background-color: var(--primary);
+}
+
 #reviews.section,
 #contact.section {
     background-color: var(--yellow);
