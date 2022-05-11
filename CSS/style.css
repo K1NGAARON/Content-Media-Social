@@ -351,6 +351,7 @@ ul li:before {
     box-shadow: var(--box-shadow);
     text-align: center;
     margin: 0 -10px;
+    width: 40%;
 }
 
 .pricing-post:nth-child(1),
@@ -375,11 +376,12 @@ ul li:before {
 
 .focus-tag {
     display: flex;
-    font-size: 8px;
+    font-size: 10px;
+    font-weight: 700;
     text-transform: uppercase;
     background-color: var(--primary);
     color: var(--white);
-    padding: 15px;
+    padding: 15px 10px;
     border-radius: 6px;
     margin-left: 10px;
     align-items: center;
@@ -512,6 +514,7 @@ ul li:before {
     background-color: var(--white);
     box-shadow: var(--box-shadow-nav);
     transition: var(--transition);
+    position: relative;
 }
 
 .service-wrapper .service-post.focus {
@@ -536,6 +539,8 @@ ul li:before {
 .service-wrapper .service-post a {
     text-decoration: none;
     transition: var(--transition);
+    position: absolute;
+    bottom: 20px;
 }
 
 .service-wrapper .service-post.focus a {
