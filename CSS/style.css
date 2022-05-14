@@ -639,11 +639,6 @@ ul li:before {
     transition: var(--transition);
 }
 
-/* TO BE CONTINUED */
-
-
-
-
 /* CONTACT FORM */
 #contact-row {
     align-items: flex-start;
