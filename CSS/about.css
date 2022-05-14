@@ -2,3 +2,7 @@
     max-width: 80%;
 }
 
+#about.section {
+    background-color: var(--yellow);
+    padding-top: 80px;
+}
