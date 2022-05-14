@@ -645,15 +645,28 @@ ul li:before {
 
 
 /* CONTACT FORM */
+#contact-row {
+    align-items: flex-start;
+}
+
+#contact-row .col:nth-child(1) {
+    width: 40%;
+}
+
+#contact-row .col:nth-child(2) {
+    width: 60%;
+}
+
 .contact-form-wrapper {
     display: flex;
     flex-direction: column;
-    background-color: #f8f9fa;
     border-radius: 12px;
-    padding: 80px;
-    width: 60%;
+    padding: 20px;
     margin: 0 auto;
-    box-shadow: var(--box-shadow-dark);
+}
+
+.contact-form-wrapper h2 {
+    color: var(--primary);
 }
 
 .contact-form-wrapper h2,
@@ -666,12 +679,12 @@ ul li:before {
     margin: 10px 0;
     padding: 10px 15px;
     border-radius: 9px;
-    border: 1px solid var(--primary);
+    border: 1px solid var(--secondary);
     font-size: 18px;
 }
 
 .contact-form-wrapper input:focus-visible {
-    border: 3px solid var(--primary);
+    border: 3px solid var(--secondary);
     outline: none;
 }
 
@@ -682,6 +695,7 @@ ul li:before {
 .contact-form-wrapper .primary-btn {
     margin-top: 20px;
     padding: 15px 0;
+    background-color: var(--secondary);
 }
 
 /* FOOTER */
