@@ -263,10 +263,12 @@ ul li:before {
 }
 
 #hero-section {
-    background-color: var(--white);
+    background-color: transparent;
     color: var(--black);
     position: relative;
     overflow: hidden;
+    background-image: linear-gradient(10deg, var(--secondary) 10%, var(--white) 100%);
+    height: 80vh;
 }
 
 #hero-section .row {
@@ -427,6 +429,43 @@ ul li:before {
     width: 140px;
     bottom: 20px;
     margin-left: -70px;
+}
+
+
+.elementor-shape[data-negative=false].elementor-shape-bottom, .elementor-shape[data-negative=true].elementor-shape-top {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.elementor-shape-bottom {
+    bottom: -1px;
+}
+.elementor-shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+.elementor-2 .elementor-element.elementor-element-00341b3 > .elementor-shape-bottom svg {
+    width: calc(225% + 1.3px);
+    height: 175px;
+}
+.elementor-shape-bottom:not([data-negative=true]) svg {
+    z-index: -1;
+}
+
+.elementor-shape svg {
+    fill: #ffffff;
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 /* REVIEWS */
