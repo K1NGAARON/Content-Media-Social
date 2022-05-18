@@ -1,0 +1,18 @@
+#client-logo .row {
+    margin-top: 0;
+}
+
+#client-logo .client-logos-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+#client-logo .client-logos-wrapper img {
+    max-width: 150px;
+    height: auto;
+    margin: 10px;
+}
