@@ -42,9 +42,9 @@ function animate(obj, initVal, lastVal, duration) {
     let text3 = document.getElementById('0103');
     
     function load() {
-        animate(text1, 0, 11, 3000);
-        animate(text2, 0, 42, 3000);
-        animate(text3, 0, 42, 3000);
+        animate(text1, 0, 26, 3000);
+        animate(text2, 0, 3271, 3000);
+        animate(text3, 0, 132, 3000);
     }
 
     
