@@ -1,3 +1,7 @@
+#client-logo {
+    background-color: var(--primary);
+}
+
 #client-logo .row {
     margin-top: 0;
 }
