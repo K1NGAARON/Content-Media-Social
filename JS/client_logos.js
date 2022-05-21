@@ -26,7 +26,7 @@ const clientLogos = [
         'clientHref' : 'https://www.instagram.com/carron.marine/'
     },
     {
-        'clientIMG' : 'IMG/logo_elektro.png',
+        'clientIMG' : '/IMG/logo_elektro.png',
         'clientAlt' : 'Elektro Schoonaert logo',
         'clientHref' : 'https://www.instagram.com/elektroschoonaert/'
     },
