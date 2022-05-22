@@ -191,8 +191,8 @@ ul li:before {
     display: none; /* Hide on default */
 }
 
-#header-logo {
-    width: 150px;
+.header-logo {
+    width: 130px;
     height: auto;
     margin-left: 0;
 }
