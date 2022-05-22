@@ -201,6 +201,13 @@ ul li:before {
     margin-left: 0;
 }
 
+.hero-img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid var(--primary);
+}
+
 /* SECTIONS, ROWS & COLUMNS */
 .section {
     width: 100%;
@@ -642,10 +649,6 @@ ul li:before {
 }
 
 /* CONTACT FORM */
-#contact-row {
-    align-items: flex-start;
-}
-
 #contact-row .col:nth-child(1) {
     width: 40%;
 }
