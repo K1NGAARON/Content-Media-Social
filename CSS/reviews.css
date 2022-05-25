@@ -1,5 +1,9 @@
+#first-section.section {
+    background-color: #095eae50;
+}
+
 #client-logo {
-    background-color: #095eae60;
+    background-color: var(--white);
 }
 
 #client-logo .row {
