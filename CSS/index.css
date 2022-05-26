@@ -1,0 +1,5 @@
+#hero-section .primary-btn:hover {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
