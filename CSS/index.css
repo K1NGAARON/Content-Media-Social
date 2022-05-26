@@ -3,3 +3,9 @@
     border: 1px solid var(--primary);
 }
 
+@media all and (max-width: 540px) {
+    .pricing-post.focus-post .primary-btn {
+        position: unset;
+        margin-left: unset;
+    }
+}
