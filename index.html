@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/cookie_banner.css">
+    <link rel="stylesheet" href="CSS/modal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Google Tag Manager -->
@@ -89,7 +90,7 @@
                 <a href="/HTML/contact.html" class="primary-btn">
                     Ontdek onze pakketten
                 </a>
-                <a href="" class="primary-btn ghost-btn">
+                <a id="openModal" class="primary-btn ghost-btn">
                     Bekijk video
                 </a>
             </div>
@@ -104,6 +105,15 @@
         c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
         c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
         </svg>		
+    </div>
+</div>
+
+<div id="videoPopUp" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+        <video id="myVideo" controls width="600">
+            <source src="/VIDEO/content_media_social.mp4" type="video/mp4">
+        </video>
     </div>
 </div>
 
@@ -423,5 +433,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="JS/cookie_banner.js"></script>
     <script src="JS/script.js"></script>
+    <script src="JS/modal.js"></script>
 </body>
 </html>
