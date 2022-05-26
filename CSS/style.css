@@ -813,11 +813,17 @@ ul li:before {
     }
 
     .topnav-content-sm .header-col .icon {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .topnav-content {
         display: none;
+    }
+
+    .topnav-content-sm .header-logo {
+        width: 80px;
+        margin: 0 auto!important;
+        padding: 20px 0;
     }
 
     .hero-right-circles {
@@ -844,6 +850,10 @@ ul li:before {
         padding: 10px 0;
     }
 
+    #hero-section .col:nth-child(2) {
+        display: none;
+    }
+
     #menu-toggle {
         color: var(--primary);
     }
@@ -852,7 +862,19 @@ ul li:before {
         margin-top: 70px;
     }
 
+    #first-section.section {
+        padding-top: 80px;
+    }
+
     .btn-wrapper {
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-wrapper .primary-btn {
+        margin: 10px 0;
         margin-right: auto;
         margin-left: auto;
     }
@@ -902,6 +924,10 @@ ul li:before {
         margin: 30px auto;
     }
 
+    .pricing-wrapper .pricing-post {
+        width: 100%;
+    }
+
     .pricing-wrapper .pricing-post:nth-child(1),
     .pricing-wrapper .pricing-post:nth-child(2),
     .pricing-wrapper .pricing-post:nth-child(3) {
@@ -938,10 +964,19 @@ ul li:before {
     .reviews-wrapper .review-post {
         width: 90%;
         display: flex;
+        flex-direction: column;
     }
 
     .reviews-wrapper .review-post:nth-child(2) {
         margin-top: 20px;
+    }
+
+    .service-wrapper .service-post {
+        width: 100%;
+    }
+
+    .service-wrapper .service-post p {
+        text-align: left;
     }
 
     .hide-sm {

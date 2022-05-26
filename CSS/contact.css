@@ -1,3 +1,14 @@
 #contact-row img {
     box-shadow: 8px 8px 0px 2px var(--yellow);
 }
+
+@media all and (max-width: 540px) {
+    #contact-row .col:nth-child(1),
+    #contact-row .col:nth-child(2) {
+        width: 100%;
+    }
+
+    #contact-row p {
+        text-align: left;
+    }
+}

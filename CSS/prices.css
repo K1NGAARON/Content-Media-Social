@@ -32,3 +32,9 @@
 #start-cost .row {
     text-align: center;
 }
+
+@media all and (max-width: 540px) {
+    #custom-made {
+        width: 90%;
+    }
+}

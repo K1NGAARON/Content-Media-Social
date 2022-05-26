@@ -1,3 +1,9 @@
 #first-section.section {
     padding-top: 120px;
 }
+
+@media all and (max-width: 540px) {
+    #first-section.section {
+        padding-top: 80px;
+    }
+}

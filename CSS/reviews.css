@@ -24,3 +24,33 @@
     height: auto;
     margin: 30px;
 }
+
+@media all and (max-width: 540px) {
+    #client-logo .client-logos-wrapper {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #client-logo .client-logos-wrapper a {
+        max-width: 50%;
+        text-align: center;
+    }
+
+    #client-logo .client-logos-wrapper img {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    .platform-counter .col {
+        padding: 0;
+    }
+
+    .platform-counter .col .counter {
+        font-size: 28px;
+    }
+
+    .platform-counter .col .description {
+        font-size: 12px;
+    }
+
+}

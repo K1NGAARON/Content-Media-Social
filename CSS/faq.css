@@ -1,4 +1,7 @@
-/* ACCORDION */
+#content {
+    font-size: 18px;
+}
+
 .accordion-container {
     position: relative;
     width: 100%;
@@ -104,4 +107,26 @@
 
 #description h2 {
     text-align: center;
+}
+
+@media all and (max-width: 540px) {
+    #content {
+        width: 100%;
+    }
+
+    .accordion-container .article-title {
+        font-size: 18px;
+    }
+
+    #content .accordion-content {
+        padding: 20px;
+    }
+
+    #content .accordion-content p {
+        text-align: left;
+    }
+
+    #content > * {
+        font-size: 14px;
+    }
 }
