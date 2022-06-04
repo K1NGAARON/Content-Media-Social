@@ -231,6 +231,10 @@ ul li:before {
     box-shadow: 8px 8px 0px 2px var(--primary);
 }
 
+#expect.section .row .col img {
+    box-shadow: 8px 8px 0px 2px var(--primary);
+}
+
 #about.section .row .col a:hover {
     background-color: var(--primary);
 }
