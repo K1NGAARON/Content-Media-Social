@@ -988,8 +988,8 @@ ul li:before {
         display: none;
     }
 
-    #about .row .col img {
-        display: none;
+    #about.section .row .col img {
+        margin-bottom: 30px;
     }
 
     #contact {
