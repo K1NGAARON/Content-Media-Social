@@ -535,7 +535,7 @@ ul li:before {
 }
 
 .review-post img {
-    max-height: 100px;
+    max-height: 140px;
     width: auto;
     border-radius: 50%;
     border: 1px solid var(--secondary);
