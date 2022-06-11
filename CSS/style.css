@@ -374,6 +374,18 @@ ul li:before {
     margin: 20px 0; 
 }
 
+.pricing-wrapper .pricing-post ul li:nth-child(1)::before {
+    color: var(--primary);
+}
+
+.pricing-wrapper .pricing-post ul li:nth-child(2)::before {
+    color: var(--secondary);
+}
+
+.pricing-wrapper .pricing-post ul li:nth-child(3)::before {
+    color: var(--yellow);
+}
+
 .pricing-post {
     background-color: var(--white);
     color: var(--black);

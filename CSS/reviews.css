@@ -27,7 +27,7 @@
 
 /* ELEMENTOR SHAPE */
 #first-section {
-    height: 75vh!important;
+    height: 60vh!important;
     position: relative;
     padding-top: 0!important;
 }
@@ -84,7 +84,7 @@
     }
 
     #client-logo .client-logos-wrapper img {
-        max-width: 70%;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -100,4 +100,12 @@
         font-size: 12px;
     }
 
+    #first-section {
+        max-height: 40vh!important;
+        padding-top: 80px!important;
+    }
+
+    #first-section .elementor-shape {
+        display: none;
+    }
 }
