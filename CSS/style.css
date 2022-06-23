@@ -225,7 +225,7 @@ ul li:before {
 }
 
 #about.section .row .col img {
-    width: 400px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     box-shadow: 8px 8px 0px 2px var(--primary);
