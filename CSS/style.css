@@ -814,6 +814,10 @@ ul li:before {
     font-family: FontAwesome;
 }
 
+img {
+    height: auto;
+}
+
 
 @media all and (max-width: 540px) {
     .topnav .header-col:nth-child(1) {
