@@ -16,13 +16,17 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 100%;
+}
+
+#client-logo .client-logos-wrapper a {
+    width: calc(100% / 3);
 }
 
 #client-logo .client-logos-wrapper img {
-    max-width: 300px;
+    width: 100%;
     height: auto;
-    margin: 30px;
+    margin: 0;
 }
 
 /* ELEMENTOR SHAPE */
@@ -79,8 +83,7 @@
     }
 
     #client-logo .client-logos-wrapper a {
-        max-width: 50%;
-        text-align: center;
+        width: calc(100% / 2);
     }
 
     #client-logo .client-logos-wrapper img {

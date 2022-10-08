@@ -129,6 +129,51 @@ const clientLogos = [
         'clientIMG' : '../IMG/logo_verdievel.jpg',
         'clientAlt' : 'Verdievel logo',
         'clientHref' : 'https://www.instagram.com/contentmedia_social/'
+    },
+    {
+        'clientIMG' : '../IMG/boones.jpg',
+        'clientAlt' : 'Boones logo',
+        'clientHref' : 'https://www.instagram.com/boones_interieur/'
+    },
+    {
+        'clientIMG' : '../IMG/glace_fie.jpg',
+        'clientAlt' : 'La Glace De Fie Logo',
+        'clientHref' : 'https://www.instagram.com/laglacedefie/'
+    },
+    {
+        'clientIMG' : '../IMG/het_oor.jpg',
+        'clientAlt' : 'Het Oor Logo',
+        'clientHref' : 'https://www.facebook.com/hetoor.alienvandaele/'
+    },
+    {
+        'clientIMG' : '../IMG/maison_violon.jpg',
+        'clientAlt' : 'Maison Violon Logo',
+        'clientHref' : 'https://www.instagram.com/maison_violon/'
+    },
+    {
+        'clientIMG' : '../IMG/mani.jpg',
+        'clientAlt' : 'Mani e Piedi Logo',
+        'clientHref' : 'https://www.instagram.com/maniepiedinieuwpoort/'
+    },
+    {
+        'clientIMG' : '../IMG/mivan.jpg',
+        'clientAlt' : 'Mivan Logo',
+        'clientHref' : 'https://www.instagram.com/mivan_interieurs/'
+    },
+    {
+        'clientIMG' : '../IMG/optiek_segers.jpg',
+        'clientAlt' : 'Optiek Segers Logo',
+        'clientHref' : 'https://www.instagram.com/optiek.segers/'
+    },
+    {
+        'clientIMG' : '../IMG/tezauro.jpg',
+        'clientAlt' : 'Tezauro Logo',
+        'clientHref' : 'https://www.instagram.com/wijnen_tezauro/'
+    },
+    {
+        'clientIMG' : '../IMG/tpo.jpg',
+        'clientAlt' : 'The Payroll Office Logo',
+        'clientHref' : 'https://www.instagram.com/thepayrolloffice/'
     }
 ];
 
