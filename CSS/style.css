@@ -593,8 +593,13 @@ ul li:before {
     position: relative;
 }
 
+#services .services-container {
+    flex-direction: column;
+}
+
 .services-background {
     background-image: url("/IMG/black-and-white-30.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.3;
     position: absolute;
@@ -605,12 +610,35 @@ ul li:before {
     z-index: 1;
 }
 
+.services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.services-section:nth-child(1) {
+    margin-top: 20px;
+}
+
+#services .services-section h2,
+#services .services-section p {
+    text-align: center;
+}
+
+#services .services-section .description {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
 .service-wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     z-index: 1;
+    margin-top: 40px;
 }
 
 .service-wrapper .service-post {
