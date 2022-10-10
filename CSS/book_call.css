@@ -1,0 +1,19 @@
+.topnav {
+    position: unset;
+}
+
+.topnav .header-col,
+.topnav-content-sm .header-col {
+    width: 100%;
+}
+
+.topnav .header-col:nth-child(1) {
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .topnav .header-col:nth-child(1) {
+        width: 100%;
+        margin-left: auto;
+    }
+}
