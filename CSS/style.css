@@ -678,6 +678,8 @@ ul li:before {
     transition: var(--transition);
     position: absolute;
     bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .service-wrapper .service-post.focus a {
@@ -688,6 +690,10 @@ ul li:before {
     cursor: pointer;
     text-decoration: underline;
     transition: var(--transition);
+}
+
+.service-wrapper .service-post h3 {
+    text-align: center;
 }
 
 /* CONTACT FORM */
@@ -974,7 +980,7 @@ img {
     }
 
     .service-wrapper .service-post {
-        width: 100%;
+        width: 90%;
     }
 
     .service-wrapper .service-post p {
@@ -1028,6 +1034,11 @@ img {
     #footer .row ul li::before {
         content: ''!important;
         margin-left: 0;
+    }
+
+    #services .services-section .description {
+        width: 90%;
+        max-width: unset;
     }
 }
 
