@@ -48,6 +48,11 @@
     padding: 40px;
 }
 
+#start-cost .content-box {
+    padding: 40px;
+    width: 90%;
+}
+
 @media all and (max-width: 540px) {
     #custom-made,
     .content-box {
