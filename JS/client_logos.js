@@ -30,11 +30,11 @@ const clientLogos = [
         'clientAlt' : 'Elektro Schoonaert logo',
         'clientHref' : 'https://www.instagram.com/elektroschoonaert/'
     },
-    {
-        'clientIMG' : '../IMG/logo_nilis.jpg',
-        'clientAlt' : 'Slagerij Nils logo',
-        'clientHref' : 'https://www.instagram.com/slagerij_nilis/'
-    },
+    // {
+    //     'clientIMG' : '../IMG/logo_nilis.jpg',
+    //     'clientAlt' : 'Slagerij Nils logo',
+    //     'clientHref' : 'https://www.instagram.com/slagerij_nilis/'
+    // },
     {
         'clientIMG' : '../IMG/logo_tiger.jpg',
         'clientAlt' : 'Tiger Balm logo',
@@ -50,16 +50,16 @@ const clientLogos = [
         'clientAlt' : 'The Herbalist Gin logo',
         'clientHref' : 'https://www.instagram.com/theherbalistgin/'
     },
-    {
-        'clientIMG' : '../IMG/logo_carine.jpg',
-        'clientAlt' : 'Coach Carine logo',
-        'clientHref' : 'https://www.instagram.com/coachtherapeutcarine/'
-    },
-    {
-        'clientIMG' : '../IMG/logo_artsi.jpg',
-        'clientAlt' : 'Artsi Pasta logo',
-        'clientHref' : 'https://www.instagram.com/artsipasta/'
-    },
+    // {
+    //     'clientIMG' : '../IMG/logo_carine.jpg',
+    //     'clientAlt' : 'Coach Carine logo',
+    //     'clientHref' : 'https://www.instagram.com/coachtherapeutcarine/'
+    // },
+    // {
+    //     'clientIMG' : '../IMG/logo_artsi.jpg',
+    //     'clientAlt' : 'Artsi Pasta logo',
+    //     'clientHref' : 'https://www.instagram.com/artsipasta/'
+    // },
     {
         'clientIMG' : '../IMG/logo_omnisoft.jpg',
         'clientAlt' : 'Omnisoft logo',
@@ -85,11 +85,11 @@ const clientLogos = [
         'clientAlt' : 'Immo Plaza logo',
         'clientHref' : 'https://www.instagram.com/immoplaza/'
     },
-    {
-        'clientIMG' : '../IMG/logo_clevers.jpg',
-        'clientAlt' : 'Clevers Immobiliën logo',
-        'clientHref' : 'https://www.instagram.com/cleversimmobilienbrugge/'
-    },
+    // {
+    //     'clientIMG' : '../IMG/logo_clevers.jpg',
+    //     'clientAlt' : 'Clevers Immobiliën logo',
+    //     'clientHref' : 'https://www.instagram.com/cleversimmobilienbrugge/'
+    // },
     {
         'clientIMG' : '../IMG/logo_alfons.jpg',
         'clientAlt' : 'Alfons logo',
@@ -100,11 +100,11 @@ const clientLogos = [
         'clientAlt' : 'AT logo',
         'clientHref' : 'https://www.instagram.com/contentmedia_social/'
     },
-    {
-        'clientIMG' : '../IMG/logo_atrium.jpg',
-        'clientAlt' : 'Atrium logo',
-        'clientHref' : 'https://www.instagram.com/contentmedia_social/'
-    },
+    // {
+    //     'clientIMG' : '../IMG/logo_atrium.jpg',
+    //     'clientAlt' : 'Atrium logo',
+    //     'clientHref' : 'https://www.instagram.com/contentmedia_social/'
+    // },
     {
         'clientIMG' : '../IMG/logo_cargo.jpg',
         'clientAlt' : 'Cargo logo',
@@ -140,11 +140,11 @@ const clientLogos = [
         'clientAlt' : 'La Glace De Fie Logo',
         'clientHref' : 'https://www.instagram.com/laglacedefie/'
     },
-    {
-        'clientIMG' : '../IMG/het_oor.jpg',
-        'clientAlt' : 'Het Oor Logo',
-        'clientHref' : 'https://www.facebook.com/hetoor.alienvandaele/'
-    },
+    // {
+    //     'clientIMG' : '../IMG/het_oor.jpg',
+    //     'clientAlt' : 'Het Oor Logo',
+    //     'clientHref' : 'https://www.facebook.com/hetoor.alienvandaele/'
+    // },
     {
         'clientIMG' : '../IMG/maison_violon.jpg',
         'clientAlt' : 'Maison Violon Logo',
@@ -165,11 +165,11 @@ const clientLogos = [
         'clientAlt' : 'Optiek Segers Logo',
         'clientHref' : 'https://www.instagram.com/optiek.segers/'
     },
-    {
-        'clientIMG' : '../IMG/tezauro.jpg',
-        'clientAlt' : 'Tezauro Logo',
-        'clientHref' : 'https://www.instagram.com/wijnen_tezauro/'
-    },
+    // {
+    //     'clientIMG' : '../IMG/tezauro.jpg',
+    //     'clientAlt' : 'Tezauro Logo',
+    //     'clientHref' : 'https://www.instagram.com/wijnen_tezauro/'
+    // },
     {
         'clientIMG' : '../IMG/tpo.jpg',
         'clientAlt' : 'The Payroll Office Logo',
