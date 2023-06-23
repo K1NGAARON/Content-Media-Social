@@ -170,56 +170,56 @@ const clientLogos = [
     //     'clientAlt' : 'Tezauro Logo',
     //     'clientHref' : 'https://www.instagram.com/wijnen_tezauro/'
     // },
-    {
-        'clientIMG' : '../IMG/tpo.jpg',
-        'clientAlt' : 'The Payroll Office Logo',
-        'clientHref' : 'https://www.instagram.com/thepayrolloffice/'
-    },
-    {
-        'clientIMG' : '../IMG/',
-        'clientAlt' : ' Logo',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '../IMG/',
-        'clientAlt' : ' Logo',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '../IMG/',
-        'clientAlt' : ' Logo',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '../IMG/',
-        'clientAlt' : ' Logo',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '../IMG/',
-        'clientAlt' : ' Logo',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '../IMG/',
-        'clientAlt' : ' Logo',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '../IMG/',
-        'clientAlt' : ' Logo',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '../IMG/',
-        'clientAlt' : ' Logo',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '../IMG/',
-        'clientAlt' : ' Logo',
-        'clientHref' : ''
-    },
+    // {
+    //     'clientIMG' : '../IMG/tpo.jpg',
+    //     'clientAlt' : 'The Payroll Office Logo',
+    //     'clientHref' : 'https://www.instagram.com/thepayrolloffice/'
+    // },
+    // {
+    //     'clientIMG' : '../IMG/',
+    //     'clientAlt' : ' Logo',
+    //     'clientHref' : ''
+    // },
+    // {
+    //     'clientIMG' : '../IMG/',
+    //     'clientAlt' : ' Logo',
+    //     'clientHref' : ''
+    // },
+    // {
+    //     'clientIMG' : '../IMG/',
+    //     'clientAlt' : ' Logo',
+    //     'clientHref' : ''
+    // },
+    // {
+    //     'clientIMG' : '../IMG/',
+    //     'clientAlt' : ' Logo',
+    //     'clientHref' : ''
+    // },
+    // {
+    //     'clientIMG' : '../IMG/',
+    //     'clientAlt' : ' Logo',
+    //     'clientHref' : ''
+    // },
+    // {
+    //     'clientIMG' : '../IMG/',
+    //     'clientAlt' : ' Logo',
+    //     'clientHref' : ''
+    // },
+    // {
+    //     'clientIMG' : '../IMG/',
+    //     'clientAlt' : ' Logo',
+    //     'clientHref' : ''
+    // },
+    // {
+    //     'clientIMG' : '../IMG/',
+    //     'clientAlt' : ' Logo',
+    //     'clientHref' : ''
+    // },
+    // {
+    //     'clientIMG' : '../IMG/',
+    //     'clientAlt' : ' Logo',
+    //     'clientHref' : ''
+    // },
 ];
 
 // Create client logos section
