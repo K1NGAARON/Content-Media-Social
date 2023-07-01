@@ -46,10 +46,6 @@
     align-items: flex-start;
 }
 
-.filter {
-    /* background-color: var(--light-grey); */
-}
-
 .filter,
 .filter .row {
     min-height: fit-content;

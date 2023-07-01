@@ -1,6 +1,7 @@
 .banner.section h1,
 .banner.section p {
     max-width: 50%;
+    color: var(--white);
 }
 
 .content.section,
