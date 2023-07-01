@@ -14,6 +14,8 @@
     --box-shadow-dark: 0px 6px 15px 5px rgb(14 27 56 / 30%);
     --box-shadow-nav: 0px 6px 15px 5px rgb(14 27 56 / 15%);
     --transition: all .25s ease-in-out;
+
+    --overlay: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
 }
 
 html {

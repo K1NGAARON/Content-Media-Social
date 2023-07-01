@@ -4,6 +4,31 @@
     color: var(--white);
 }
 
+.banner {
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner .row,
+.banner {
+    z-index: 99;
+}
+
+.overlay {
+    background: var(--overlay);
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 3;
+}
+
 .content.section,
 .content.section .row {
     min-height: fit-content;
