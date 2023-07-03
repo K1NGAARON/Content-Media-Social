@@ -668,7 +668,7 @@ ul li:before {
 
 .service-wrapper .service-post:hover {
     transition: var(--transition);
-    transform: scale(1.10);
+    transform: scale(1.05);
     border: 2px solid var(--primary);
 }
 
