@@ -16,6 +16,7 @@
     --transition: all .25s ease-in-out;
 
     --overlay: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
+    --overlay-blue: linear-gradient(90deg, rgb(9, 94, 174) 0%, rgb(9, 94, 174) 24%, rgb(0, 0, 0) 70%);
 }
 
 html {

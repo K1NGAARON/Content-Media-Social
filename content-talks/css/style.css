@@ -4,6 +4,10 @@
     position: relative;
 }
 
+.primary-color {
+    color: var(--primary);
+}
+
 .banner .row {
     align-content: center;
     position: relative;
@@ -15,7 +19,7 @@
 }
 
 .banner h1 {
-    color: var(--white);
+    color: var(--primary);
     font-size: 56px;
 }
 

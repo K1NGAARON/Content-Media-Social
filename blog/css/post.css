@@ -17,7 +17,7 @@
 }
 
 .overlay {
-    background: var(--overlay);
+    background: var(--overlay-blue);
     opacity: 0.9;
     position: absolute;
     top: 0;
