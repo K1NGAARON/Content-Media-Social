@@ -5,6 +5,11 @@
     border: 3px solid var(--primary);
 }
 
+.primary-btn:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
 #about.section {
     background-color: var(--secondary);
     color: var(--white);
