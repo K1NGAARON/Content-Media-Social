@@ -1,0 +1,114 @@
+#first-section.section {
+    background-color: #095eae50;
+}
+
+#client-logo {
+    background-color: var(--white);
+}
+
+#client-logo .row {
+    margin-top: 0;
+}
+
+#client-logo .client-logos-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#client-logo .client-logos-wrapper a {
+    width: calc(100% / 3);
+}
+
+#client-logo .client-logos-wrapper img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+/* ELEMENTOR SHAPE */
+#first-section {
+    height: 60vh!important;
+    position: relative;
+    padding-top: 0!important;
+}
+
+#first-section .row {
+    margin-top: 0;
+}
+
+#first-section .elementor-shape[data-negative=false].elementor-shape-bottom, .elementor-shape[data-negative=true].elementor-shape-top {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#first-section .elementor-shape-bottom {
+    bottom: -1px;
+}
+#first-section .elementor-shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+#first-section .elementor-2 .elementor-element.elementor-element-00341b3 > .elementor-shape-bottom svg {
+    width: calc(225% + 1.3px);
+    height: 175px;
+}
+#first-section .elementor-shape-bottom:not([data-negative=true]) svg {
+    z-index: -1;
+}
+
+#first-section .elementor-shape svg {
+    fill: #fff;
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+@media all and (max-width: 540px) {
+    #client-logo .client-logos-wrapper {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #client-logo .client-logos-wrapper a {
+        width: calc(100% / 2);
+    }
+
+    #client-logo .client-logos-wrapper img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .platform-counter .col {
+        padding: 0;
+    }
+
+    .platform-counter .col .counter {
+        font-size: 28px;
+    }
+
+    .platform-counter .col .description {
+        font-size: 12px;
+    }
+
+    #first-section {
+        max-height: 40vh!important;
+        padding-top: 80px!important;
+    }
+
+    #first-section .elementor-shape {
+        display: none;
+    }
+}
