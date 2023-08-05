@@ -5,7 +5,7 @@
 }
 
 .banner {
-    height: 60vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -78,6 +78,19 @@
 
 .video-wrapper {
     margin: 0 auto;
+}
+
+.overlay {
+    background: var(--overlay-blue);
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 3;
 }
 
 @media (max-width: 560px) {

@@ -157,6 +157,7 @@
     flex-direction: column;
     font-size: 18px;
     transition: var(--transition);
+    z-index: 99;
 }
 
 .header .dropdown-holder .dropdown a:hover {
