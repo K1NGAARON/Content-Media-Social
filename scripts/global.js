@@ -2,6 +2,17 @@ $("#menu-toggle").click(function() {
     $(".small-menu-wrapper").toggle("active");
 });
 
+function toggleMenuDropdown(e) {
+    if ($(this).parent().hasClass("active")) {
+        $(this).parent().removeClass('active');
+    } else {
+        $('.dropdown-btn').parent().removeClass('active');
+        $(this).parent().addClass('active');
+    }
+};
+
+$('.dropdown-btn').click(toggleMenuDropdown);
+
 let cookieBanner = document.querySelector(".cookie-banner-wrapper");
 let cookiesAccepted = document.querySelector("#accept-cookies");
 let blackOverlay = document.querySelector("#overlay");
