@@ -63,6 +63,7 @@
 
 .header .small-menu-wrapper {
     display: none;
+    width: 100%;
 }
 
 .nav {
