@@ -7,6 +7,7 @@
 
 .header .row {
     width: 100%;
+    max-width: 1600px;
     min-height: unset;
     align-items: center;
     justify-content: flex-end;
@@ -252,7 +253,7 @@
     font-family: FontAwesome;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 1220px) {
     .header .row {
         display: none;
     }
