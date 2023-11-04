@@ -49,6 +49,14 @@
 
 .service-wrapper .item ul {
     color: var(--primary);
+    list-style: none;
+    padding: 0;
+}
+
+.service-wrapper .item li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
 }
 
 .service-wrapper .item ul.not-selected {
