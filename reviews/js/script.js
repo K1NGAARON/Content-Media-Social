@@ -10,11 +10,11 @@ const clientLogos = [
         'clientAlt' : 'Feelgood logo',
         'clientHref' : 'https://www.instagram.com/feelgood_care/'
     },
-    {
-        'clientIMG' : '../IMG/logo_fitatelier.jpg',
-        'clientAlt' : 'Fit Atelier Koksijde logo',
-        'clientHref' : 'https://www.instagram.com/fitatelier_koksijde/'
-    },
+    // {
+    //     'clientIMG' : '../IMG/logo_fitatelier.jpg',
+    //     'clientAlt' : 'Fit Atelier Koksijde logo',
+    //     'clientHref' : 'https://www.instagram.com/fitatelier_koksijde/'
+    // },
     {
         'clientIMG' : '../IMG/logo_cirque.jpg',
         'clientAlt' : 'Café Cirque logo',
@@ -90,11 +90,11 @@ const clientLogos = [
         'clientAlt' : 'Alveringem logo',
         'clientHref' : 'https://www.instagram.com/contentmedia_social/'
     },
-    {
-        'clientIMG' : '../IMG/logo_frieke.jpg',
-        'clientAlt' : 'Frieke logo',
-        'clientHref' : 'https://www.instagram.com/contentmedia_social/'
-    },
+    // {
+    //     'clientIMG' : '../IMG/logo_frieke.jpg',
+    //     'clientAlt' : 'Frieke logo',
+    //     'clientHref' : 'https://www.instagram.com/contentmedia_social/'
+    // },
     {
         'clientIMG' : '../IMG/logo_kathy.jpg',
         'clientAlt' : 'Kathy logo',
@@ -120,11 +120,11 @@ const clientLogos = [
         'clientAlt' : 'Maison Violon Logo',
         'clientHref' : 'https://www.instagram.com/maison_violon/'
     },
-    {
-        'clientIMG' : '../IMG/mani.jpg',
-        'clientAlt' : 'Mani e Piedi Logo',
-        'clientHref' : 'https://www.instagram.com/maniepiedinieuwpoort/'
-    },
+    // {
+    //     'clientIMG' : '../IMG/mani.jpg',
+    //     'clientAlt' : 'Mani e Piedi Logo',
+    //     'clientHref' : 'https://www.instagram.com/maniepiedinieuwpoort/'
+    // },
     {
         'clientIMG' : '../IMG/mivan.jpg',
         'clientAlt' : 'Mivan Logo',
