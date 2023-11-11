@@ -103,20 +103,20 @@
 /* REVIEWS */
 .reviews-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     max-width: 800px;
     margin: 20px 0;
+    gap: 40px;
 }
 
 .review-post {
+    flex: 1 0 40%;
     background-color: var(--white);
     color: var(--black);
-    width: 50%;
     padding: 20px;
     border-radius: 9px;
     box-shadow: var(--box-shadow);
     text-align: center;
-    margin: 0 20px;
 }
 
 .review-post img {
@@ -199,9 +199,26 @@
     cursor: pointer;
 }
 
+#reviews .row {
+    gap: 0;
+}
+
+#services .row {
+    margin-top: 40px!important;
+    gap: 0;
+}
+
 @media all and (max-width: 540px) {
     #myVideo {
         width: 100%;
+    }
+
+    #hero-section {
+        height: 70vh;
+    }
+
+    .review-post {
+        flex: 1 0 100%;
     }
 }
 

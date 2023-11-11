@@ -7,15 +7,18 @@
     padding-top: 80px;
 }
 
-#about.section .row .col img {
+.image-background {
     width: 100%;
     height: auto;
     margin: 0 auto;
     box-shadow: 8px 8px 0px 2px var(--primary);
 }
 
-
 /* Slideshow container */
+.slideshow-container .primary-color {
+    text-align: center;
+}
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -105,5 +108,9 @@
 @media all and (max-width: 540px) {
     .max-width-80 {
         max-width: 100%;
+    }
+
+    .row.reverse-sm {
+        flex-direction: column-reverse;
     }
 }

@@ -147,6 +147,10 @@
     .content-box {
         width: 90%;
     }
+
+    .service-wrapper .item li {
+        align-items: center;
+    }
 }
 
 @media (max-width: 640px) {

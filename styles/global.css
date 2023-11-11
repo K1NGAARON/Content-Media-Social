@@ -423,7 +423,7 @@ ul li:before {
     justify-content: center;
     flex-flow: row wrap;
     z-index: 1;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .service-wrapper .service-post {
@@ -516,9 +516,15 @@ img {
         margin-left: auto;
     }
 
+    .pricing-post.focus-post .primary-btn {
+        position: unset;
+        margin-left: unset;
+    }
+
     .row {
         flex-direction: column;
         margin: 20px auto;
+        gap: 40px;
     }
 
     .row.row-reverse {

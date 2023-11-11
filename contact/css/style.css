@@ -78,4 +78,13 @@
     .contact-form-wrapper form label {
         font-size: 12px;
     }
+
+    #contact-row .col:nth-child(1),
+    #contact-row .col:nth-child(2) {
+        width: 100%;
+    }
+
+    .legal-info p {
+        text-align: left;
+    }
 }
