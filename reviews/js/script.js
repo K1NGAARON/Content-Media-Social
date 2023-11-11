@@ -256,7 +256,6 @@ function shuffleArray(array) {
     array.sort(() => Math.random() - 0.5);
 };
 
-// Create client logos section
 function createClientLogos() {
     shuffleArray(clientLogos);
 
@@ -311,9 +310,9 @@ function animate(obj, initVal, lastVal, duration) {
     let text3 = document.getElementById('0103');
     
     function load() {
-        animate(text1, 0, 46, 3000);
-        animate(text2, 0, 5147, 3000);
-        animate(text3, 0, 238, 3000);
+        animate(text1, 0, 50, 3000);
+        animate(text2, 0, 5783, 3000);
+        animate(text3, 0, 251, 3000);
     };
 
 document.addEventListener('DOMContentLoaded', load());
