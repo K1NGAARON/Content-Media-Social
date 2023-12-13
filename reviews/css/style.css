@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-#client-logo .client-logos-wrapper a {
+#client-logo .client-logos-wrapper .holder {
     width: calc(100% / 3);
 }
 
