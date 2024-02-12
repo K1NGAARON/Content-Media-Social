@@ -142,6 +142,11 @@
     width: 90%;
 }
 
+.width-60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
 @media all and (max-width: 540px) {
     #custom-made,
     .content-box {
@@ -173,5 +178,8 @@
     #first-section p {
         width: 100%;
     }
-    
+
+    .width-60 {
+        width: 100%;
+    }
 }
