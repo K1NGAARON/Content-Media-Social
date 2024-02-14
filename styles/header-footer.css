@@ -253,7 +253,7 @@
     font-family: FontAwesome;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1340px) {
     .header .row {
         display: none;
     }
