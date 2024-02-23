@@ -104,10 +104,10 @@ const clientLogos = [
         'clientIMG' : '/reviews/img/HPlus-2.png',
         'clientHref' : ''
     },
-    {
-        'clientIMG' : '/reviews/img/immo-plaza.png',
-        'clientHref' : ''
-    },
+    // {
+    //     'clientIMG' : '/reviews/img/immo-plaza.png',
+    //     'clientHref' : ''
+    // },
     {
         'clientIMG' : '/reviews/img/isabelle-sissau.png',
         'clientHref' : ''
