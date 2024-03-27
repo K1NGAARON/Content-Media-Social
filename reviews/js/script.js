@@ -2,220 +2,200 @@ const clientLogosWrapper = document.querySelector(".client-logos-wrapper");
 const clientLogos = [
     {
         'clientIMG' : '/reviews/img/abpplicaite.png',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '/reviews/img/agence-nwpt.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.linkedin.com/company/98118307/admin/feed/posts/'
     },
     {
         'clientIMG' : '/reviews/img/belgo.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/belgorestaurant/'
     },
     {
         'clientIMG' : '/reviews/img/Bilitis.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/bilitislingeriebadmode/'
     },
     {
         'clientIMG' : '/reviews/img/blitz-media.png',
-        'clientHref' : ''
+        'clientHref' : 'https://blitz-media.io'
     },
     {
         'clientIMG' : '/reviews/img/Boones.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/boones_interieur/'
     },
     {
         'clientIMG' : '/reviews/img/brasserie-casino.png',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '/reviews/img/Cajou.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/brasserie_casino/'
     },
     {
         'clientIMG' : '/reviews/img/carron-marine.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/carron.marine/'
     },
     {
         'clientIMG' : '/reviews/img/casino-hotel.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/casino_hotel_koksijde/'
     },
     {
         'clientIMG' : '/reviews/img/CBBH.png',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '/reviews/img/club-benelux.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/chateau_briand_by_hauspie/'
     },
     {
         'clientIMG' : '/reviews/img/coiffure-armonie.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/coiffurearmonie/'
     },
     {
         'clientIMG' : '/reviews/img/CORNR.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/thecornrhotel/'
     },
     {
         'clientIMG' : '/reviews/img/David-Debal-3.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/david.debal/'
     },
     {
         'clientIMG' : '/reviews/img/de-hobbit.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/dehobbitbrugge/'
     },
     {
         'clientIMG' : '/reviews/img/Devlieger-3.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/devlieger.knokke/'
     },
     {
         'clientIMG' : '/reviews/img/elektro-schoonaert.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/elektroschoonaert/'
     },
     {
         'clientIMG' : '/reviews/img/Espero.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/espero_oostduinkerke/'
     },
     {
         'clientIMG' : '/reviews/img/evy-flavour.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/evys_flavour/'
     },
     {
         'clientIMG' : '/reviews/img/Feelgoodcare.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/feelgood_care/'
     },
     {
         'clientIMG' : '/reviews/img/Fonkelster.png',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '/reviews/img/Fritesse.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/fonkelster/'
     },
     {
         'clientIMG' : '/reviews/img/Herbalist.png',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '/reviews/img/hotel-europe.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/theherbalistgin/'
     },
     {
         'clientIMG' : '/reviews/img/HPlus-2.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/hplus_mobility/'
     },
-    // {
-    //     'clientIMG' : '/reviews/img/immo-plaza.png',
-    //     'clientHref' : ''
-    // },
     {
         'clientIMG' : '/reviews/img/isabelle-sissau.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/isabelle_sissau_keramiek/'
     },
     {
         'clientIMG' : '/reviews/img/Klimatherm.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/klimatherm_sanitair/'
     },
     {
         'clientIMG' : '/reviews/img/la-glace.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/laglacedefie/'
     },
     {
         'clientIMG' : '/reviews/img/Mivan.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/mivan_interieurs/'
     },
     {
         'clientIMG' : '/reviews/img/Nobla.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/nobla_restaurant/'
     },
     {
         'clientIMG' : '/reviews/img/omnisoft.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/omnisoftbe/'
     },
     {
         'clientIMG' : '/reviews/img/optiek-segers.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/optiek.segers/'
     },
     {
         'clientIMG' : '/reviews/img/panne-beach-endurance.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/depannebeachendurance/'
     },
     {
         'clientIMG' : '/reviews/img/pieter-degrande.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/pieterdegrandebv/'
     },
     {
         'clientIMG' : '/reviews/img/pietje-pek.png',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '/reviews/img/PlaDuJoer.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/pietje_pek_bruges/'
     },
     {
         'clientIMG' : '/reviews/img/Pralifino.png',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '/reviews/img/psh.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/pralifinoveurne/'
     },
     {
         'clientIMG' : '/reviews/img/Raditel.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/raditel_adinkerke/'
     },
     {
         'clientIMG' : '/reviews/img/Rebova.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/rebova_veurne/'
     },
     {
         'clientIMG' : '/reviews/img/san-cv.png',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '/reviews/img/saumon-d-or.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/sancv_maldegem/'
     },
     {
         'clientIMG' : '/reviews/img/spoor-74.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/maisdoolhofspoor74/'
     },
     {
         'clientIMG' : '/reviews/img/st-catherine.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/st.catherine_nieuwpoort/'
     },
     {
         'clientIMG' : '/reviews/img/TigerBalm.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/tigerbalm_belux/'
     },
     {
         'clientIMG' : '/reviews/img/Ultimmo.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/agence_ultimmo_/'
     },
     {
         'clientIMG' : '/reviews/img/UltiSyn.png',
-        'clientHref' : ''
-    },
-    {
-        'clientIMG' : '/reviews/img/Unizo.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/ultisynsyndicus/'
     },
     {
         'clientIMG' : '/reviews/img/Vanheste.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/vanheste_sport/'
     },
     {
         'clientIMG' : '/reviews/img/Vansteelandt.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/schilderwerkenvansteelandt/'
     },
     {
         'clientIMG' : '/reviews/img/Verdievel.png',
-        'clientHref' : ''
+        'clientHref' : 'https://www.instagram.com/schoenenverdievel_nieuwpoort/'
     },
-    // {
-    //     'clientIMG' : '/reviews/img/',
-    //     'clientHref' : ''
-    // },
+    {
+        'clientIMG' : '/reviews/img/a-mode.png',
+        'clientHref' : 'https://www.instagram.com/a_mode_belgie/'
+    },
+    {
+        'clientIMG' : '/reviews/img/fitlab.png',
+        'clientHref' : 'https://www.instagram.com/fitlabgistel/'
+    },
+    {
+        'clientIMG' : '/reviews/img/mestdagh-logo.png',
+        'clientHref' : 'https://www.instagram.com/mestdagh.artisan/'
+    },
+    {
+        'clientIMG' : '/reviews/img/sablon-logo.png',
+        'clientHref' : 'https://www.instagram.com/hotelsablonbruges/'
+    },
+    {
+        'clientIMG' : '/reviews/img/wijn-aan-zee.png',
+        'clientHref' : 'https://www.instagram.com/wijn_aan_zee/'
+    },
+    {
+        'clientIMG' : '/reviews/img/wonn-2-logo.png',
+        'clientHref' : 'https://www.instagram.com/woonn_development/'
+    },
 ];
 
 function shuffleArray(array) {
@@ -227,9 +207,9 @@ function createClientLogos() {
 
     for (let i = 0; i < clientLogos.length; i++) {
         const clientLogoTemplate = `
-        <div class="holder">
+        <a href=${clientLogos[i].clientHref} class="holder">
             <img src="${clientLogos[i].clientIMG}">
-        </div>
+        </a>
         `; 
         clientLogosWrapper.insertAdjacentHTML("beforeend", clientLogoTemplate);
     };
