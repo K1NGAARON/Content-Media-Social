@@ -1,25 +1,18 @@
 const content = [
     {
-        title: "12 SEO tips om hoog te scoren in Google",
-        tag: "seo",
-        body: "",
-        img: "https://blitz-media.io/blog/12-seo-tips-om-te-scoren-in-google/img/banner.jpg",
-        url: "/blog/blog-1",
+        title: "Tiktok voor bedrijven",
+        tag: "social-media",
+        body: "TikTok is het laatste nieuwe sociale media platform, maar als bedrijf sta je voor de keuze: dans je mee op de trends van TikTok, of blijf je aan de zijlijn?",
+        img: "/blog/tiktok-voor-bedrijven/img/banner.png",
+        url: "/blog/tiktok-voor-bedrijven/",
     },
-    {
-        title: "Hoe genereer je gekwalificeerde leads via je website?",
-        tag: "digital-marketing",
-        body: "",
-        img: "https://blitz-media.io/blog/hoe-leads-genereren-via-website/img/banner.jpg",
-        url: "/blog/blog-1/",
-    },
-    {
-        title: "Hoeveel Kost Een Professionele Website?",
-        tag: "website-development",
-        body: "",
-        img: "https://blitz-media.io/blog/hoeveel-kost-een-professionele-website/img/banner.jpg",
-        url: "/blog/blog-1/",
-    },
+    // {
+    //     title: "",
+    //     tag: "",
+    //     body: "",
+    //     img: "",
+    //     url: "",
+    // },
     // {
     //     title: "",
     //     tag: "",
