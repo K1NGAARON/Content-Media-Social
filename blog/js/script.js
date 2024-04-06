@@ -1,6 +1,6 @@
 const content = [
     {
-        title: "Tiktok voor bedrijven",
+        title: "TikTok voor bedrijven",
         tag: "social-media",
         body: "TikTok is het laatste nieuwe sociale media platform, maar als bedrijf sta je voor de keuze: dans je mee op de trends van TikTok, of blijf je aan de zijlijn?",
         img: "/blog/tiktok-voor-bedrijven/img/banner.png",
