@@ -6,10 +6,6 @@
     width: 60%;
 }
 
-#services {
-    background-color: var(--secondary);
-}
-
 .services-section {
     padding: 0 60px;
 }
@@ -32,7 +28,7 @@
     flex-direction: column;
     padding: 30px;
     border-radius: 20px;
-    background-color: var(--white);
+    background-color: var(--secondary);
 }
 
 .service-wrapper .item {
