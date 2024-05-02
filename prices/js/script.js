@@ -15,4 +15,11 @@ $('.accordion-item').click(function () {
 
     $(this).children('.accordion-head').children('.icon').children('i').removeClass('fa-plus');
     $(this).children('.accordion-head').children('.icon').children('i').addClass('fa-minus');
+
+    // Scroll to the opened accordion
+    if ($(this).children('.accordion-head').hasClass('active')) {
+        $('html, body').animate({
+            scrollTop: $(this).children('.accordion-head').offset().top
+        }, 500);
+    }
 });

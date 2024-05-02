@@ -2,6 +2,10 @@
     background-color: var(--white);
 }
 
+.faq {
+    width: 100%;
+}
+
 .services-section {
     align-items: center;
 }
