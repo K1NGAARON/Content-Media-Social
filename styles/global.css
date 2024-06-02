@@ -156,6 +156,14 @@ ul li:before {
     flex-direction: column;
 }
 
+.section.secondary {
+    background-color: var(--secondary);
+}
+
+.section.secondary p {
+    color: var(--white);
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
