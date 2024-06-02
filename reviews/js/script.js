@@ -14,7 +14,7 @@ const clientLogos = [
     },
     {
         'clientIMG' : '/reviews/img/blitz-media.png',
-        'clientHref' : 'https://blitz-media.io'
+        'clientHref' : 'https://www.instagram.com/blitzmedia.io/'
     },
     {
         'clientIMG' : '/reviews/img/Boones.png',
@@ -195,6 +195,26 @@ const clientLogos = [
     {
         'clientIMG' : '/reviews/img/wonn-2-logo.png',
         'clientHref' : 'https://www.instagram.com/woonn_development/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-le-plat.png',
+        'clientHref' : 'https://www.instagram.com/traiteurleplat/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-maritiem.png',
+        'clientHref' : 'https://www.instagram.com/immomaritiem/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-fa4.png',
+        'clientHref' : 'https://www.instagram.com/fresh4animals.be/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-spoor-74.png',
+        'clientHref' : 'https://www.instagram.com/vakantiehuisspoor74/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-by-jonathan.png',
+        'clientHref' : 'https://www.instagram.com/jonathanschuermans/'
     },
 ];
 
