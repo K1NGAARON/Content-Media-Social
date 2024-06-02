@@ -28,7 +28,7 @@ const content = [
         url: "/blog/bye-bye-cliches/",
     },
     {
-        title: "Display Advertenties: De Sleutel tot Effectieve Targeting",
+        title: "Gericht Adverteren",
         tag: "",
         body: "",
         img: "/blog/display-advertenties/img/display-advertenties.jpg",
