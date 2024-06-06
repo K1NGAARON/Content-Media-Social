@@ -43,14 +43,16 @@
     padding: 30px;
     background-color: var(--light-grey);
     border-radius: 26px;
+    margin: 20px auto;
 }
 
 .content.section .row h2 {
-    font-size: 36px;
+    font-size: 24px;
+    color: var(--primary);
 }
 
 .content.section .row h3 {
-    font-size: 30px;
+    font-size: 20px;
     color: #444;
     margin: 10px 0 20px 0;
 }
