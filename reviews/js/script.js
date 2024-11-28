@@ -13,10 +13,6 @@ const clientLogos = [
         'clientHref' : 'https://www.instagram.com/bilitislingeriebadmode/'
     },
     {
-        'clientIMG' : '/reviews/img/blitz-media.png',
-        'clientHref' : 'https://www.instagram.com/blitzmedia.io/'
-    },
-    {
         'clientIMG' : '/reviews/img/Boones.png',
         'clientHref' : 'https://www.instagram.com/boones_interieur/'
     },
@@ -45,10 +41,6 @@ const clientLogos = [
         'clientHref' : 'https://www.instagram.com/thecornrhotel/'
     },
     {
-        'clientIMG' : '/reviews/img/David-Debal-3.png',
-        'clientHref' : 'https://www.instagram.com/david.debal/'
-    },
-    {
         'clientIMG' : '/reviews/img/de-hobbit.png',
         'clientHref' : 'https://www.instagram.com/dehobbitbrugge/'
     },
@@ -65,24 +57,12 @@ const clientLogos = [
         'clientHref' : 'https://www.instagram.com/espero_oostduinkerke/'
     },
     {
-        'clientIMG' : '/reviews/img/evy-flavour.png',
-        'clientHref' : 'https://www.instagram.com/evys_flavour/'
-    },
-    {
         'clientIMG' : '/reviews/img/Feelgoodcare.png',
         'clientHref' : 'https://www.instagram.com/feelgood_care/'
     },
     {
-        'clientIMG' : '/reviews/img/Fonkelster.png',
-        'clientHref' : 'https://www.instagram.com/fonkelster/'
-    },
-    {
         'clientIMG' : '/reviews/img/Herbalist.png',
         'clientHref' : 'https://www.instagram.com/theherbalistgin/'
-    },
-    {
-        'clientIMG' : '/reviews/img/HPlus-2.png',
-        'clientHref' : 'https://www.instagram.com/hplus_mobility/'
     },
     {
         'clientIMG' : '/reviews/img/isabelle-sissau.png',
@@ -123,10 +103,6 @@ const clientLogos = [
     {
         'clientIMG' : '/reviews/img/pietje-pek.png',
         'clientHref' : 'https://www.instagram.com/pietje_pek_bruges/'
-    },
-    {
-        'clientIMG' : '/reviews/img/Pralifino.png',
-        'clientHref' : 'https://www.instagram.com/pralifinoveurne/'
     },
     {
         'clientIMG' : '/reviews/img/Raditel.png',
@@ -177,10 +153,6 @@ const clientLogos = [
         'clientHref' : 'https://www.instagram.com/a_mode_belgie/'
     },
     {
-        'clientIMG' : '/reviews/img/fitlab.png',
-        'clientHref' : 'https://www.instagram.com/fitlabgistel/'
-    },
-    {
         'clientIMG' : '/reviews/img/mestdagh-logo.png',
         'clientHref' : 'https://www.instagram.com/mestdagh.artisan/'
     },
@@ -216,6 +188,50 @@ const clientLogos = [
         'clientIMG' : '/reviews/img/logo-by-jonathan.png',
         'clientHref' : 'https://www.instagram.com/jonathanschuermans/'
     },
+    // {
+    //     'clientIMG' : '/reviews/img/',
+    //     'clientHref' : 'https://www.instagram.com/atelier___mouton/'
+    // },
+    {
+        'clientIMG' : '/reviews/img/logo-barenzo.png',
+        'clientHref' : 'https://www.instagram.com/barenzo_westende/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-eico.png',
+        'clientHref' : 'https://www.instagram.com/eico.eierhandel/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-immo-koksijde.svg',
+        'clientHref' : 'https://www.instagram.com/immokoksijde/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-immo-plaza.jpg',
+        'clientHref' : 'https://www.instagram.com/immoplaza/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-klachteling.jpg',
+        'clientHref' : 'https://www.instagram.com/dekachteling/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-lingerie-caline.jpg',
+        'clientHref' : 'https://www.instagram.com/lingeriecaline/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-pattyn.jpg',
+        'clientHref' : 'https://www.instagram.com/drukkerijpattyn/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-provincie-oost-vl.JPG',
+        'clientHref' : 'https://www.instagram.com/oost_vlaanderen/'
+    },
+    {
+        'clientIMG' : '/reviews/img/logo-rosc.jpg',
+        'clientHref' : 'https://www.instagram.com/oostendsezwemschool/'
+    },
+    // {
+    //     'clientIMG' : '/reviews/img/',
+    //     'clientHref' : ''
+    // },
 ];
 
 function shuffleArray(array) {
