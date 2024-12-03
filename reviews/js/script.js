@@ -228,10 +228,14 @@ const clientLogos = [
         'clientIMG' : '/reviews/img/logo-rosc.jpg',
         'clientHref' : 'https://www.instagram.com/oostendsezwemschool/'
     },
-    // {
-    //     'clientIMG' : '/reviews/img/',
-    //     'clientHref' : ''
-    // },
+    {
+        'clientIMG' : '/reviews/img/atelier-mouton.png',
+        'clientHref' : 'https://www.instagram.com/atelier___mouton/'
+    },
+    {
+        'clientIMG' : '/reviews/img/med.png',
+        'clientHref' : 'https://www.instagram.com/medisale/'
+    },
 ];
 
 function shuffleArray(array) {
